@@ -8,7 +8,7 @@ int main()
     {
         long long int n,c=0,temp,sum=0,ctr=0;
         cin>>n;
-        int arr[100000];
+        long long  int arr[100000];
         for(int i=0;i<n;i++)
         {
             cin>>temp;
@@ -21,7 +21,7 @@ int main()
         sort(arr,arr+c);
         for(int i=c;i>=0;i--)
         {if(arr[i]-ctr>=0)
-            sum=sum+arr[i]-ctr;
+            sum+=arr[i]-ctr;
          ctr++;
         }
         cout<<sum<<endl;
