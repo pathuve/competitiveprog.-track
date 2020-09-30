@@ -66,7 +66,7 @@ int main() {
 	        else
             {
 
-                ans=ans*power(2,x.second,p);
+                ans=ans%p*power(2,x.second,p);
 	        }
 
 	    }
