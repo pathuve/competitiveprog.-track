@@ -1,9 +1,9 @@
 #include<iostream>
 #include<stdio.h>
 using namespace std;
-int countSetBits(int n)
+long long int countSetBits(int n)
 {
-    unsigned int count = 0;
+    unsigned long long  int count = 0;
     while (n)
     {
       n &= (n-1) ;
