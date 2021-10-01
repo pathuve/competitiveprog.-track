@@ -31,7 +31,7 @@ int main()
         {
             if(ans[i]==1)
             {
-                ans[i]=0;
+                
                 ctr++;
                 for(long long int j=i-1;j>=0;j--)
                 {
