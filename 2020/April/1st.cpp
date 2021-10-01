@@ -9,7 +9,7 @@ int kFactors(int n, int k)
     while (n%2 == 0)
     {
         P.push_back(2);
-        n /= 2;
+        n =n/2;
     }
 
 
