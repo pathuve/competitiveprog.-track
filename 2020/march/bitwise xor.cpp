@@ -6,7 +6,7 @@ long long int countSetBits(int n)
     unsigned long long  int count = 0;
     while (n)
     {
-      n &= (n-1) ;
+      n = n & (n-1) ;
       count++;
     }
     return count;
