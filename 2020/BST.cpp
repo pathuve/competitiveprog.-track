@@ -1,7 +1,7 @@
 # include <iostream>
 # include <cstdlib>
 using namespace std;
-struct nod//node declaration
+struct nod
 {
    int info;
    struct nod *l;
