@@ -29,9 +29,7 @@ int main()
             }
 
         }
-        //cout<<(7&15)<<" "<<(12&15)<<endl;
-        //cout<<countBits(x)<<" "<<countBits(y)<<" "<<countBits(f)<<" "<<countBits(l);
-       /* m=(x>y)?x:y;
+        
         n=countBits(m);
         if(x==y)
         {
