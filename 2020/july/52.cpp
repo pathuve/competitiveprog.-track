@@ -17,8 +17,8 @@ int main()
         mini=a[0];
         for(long long int i=1;i<n;i++)
             {cin>>a[i];
-            min(mini,a[i]);
-             ua[a[i]]++;
+            min(min,a[i]);
+             a[i]--
              uc[a[i]]++;
             }
         for(long long int i=0;i<n;i++)
